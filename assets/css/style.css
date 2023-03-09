@@ -1,0 +1,14 @@
+@import url(/assets/css/header.css);
+
+:root{
+
+    --cor-de-fundo: #FEF9F9;
+    --fonte-primaria: 'Signika Negative'
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}

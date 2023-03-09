@@ -2,11 +2,63 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fast Food</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Red+Hat+Display&family=RocknRoll+One&family=Rosario&family=Signika+Negative&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
+
 <body>
+    <header class="cabecalho">  <!--inicio cabeçalho-->
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao"> <!--interação do menu-->
+            <label for="menu" class="container__rotulo">
+                <span class="cabecalho__menu-hamburguer container__imagem"></span> <!--interação do menu-->
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Hambúrguers</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Pizzas</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Batatas</a>
+                </li>
+            </ul> 
+            <img src="/assets/img/logo.svg" alt="Logo Fast Food" class="container__imagem">   
+            <h1 class="container__titulo-responsive"> <b class="container__titulo"></b>Dehli, Brasil</h1> <!--responsive-->
+            
+        </div>  
+        <ul class="opcoes">
+           
+            <ul class="lista-menu">
+                
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Hambúrguers</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Pizzas</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Batatas</a>
+                </li>
+                   
+            </ul>    
+
+            <li class="opcoes__item"><a href="#" class="opcoes__link">Hambúrguers</a></li>
+            <li class="opcoes__item"><a href="#" class="opcoes__link">Pizzas</a></li>
+            <li class="opcoes__item"><a href="#" class="opcoes__link">Batatas</a></li>
+        </ul>       
+        <div class="container">
+            <a href="#"><img src="/assets/img/Hamburguer.svg" alt="Hamburguer" class="container__imagem container__imagem-transparente"></a>
+           
+        </div>       
+    </header>
     
 </body>
 </html>

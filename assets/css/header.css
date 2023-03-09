@@ -1,0 +1,124 @@
+.cabecalho__menu-hamburguer {
+    width: 50px;
+    height: 100px;
+    background-image: url("../img/Menu hamburguer.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.cabecalho{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}    
+.container{
+    display: flex;
+    align-items: center;
+}
+.container__imagem{
+    padding: 1em;
+}
+.container__titulo{
+    font-family: var(--fonte-primaria);
+    padding-left: 3em;
+}
+.lista-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+.container__botao:checked~.lista-menu{
+    display: block;
+}
+.lista-menu__titulo, .lista-menu__item{
+    padding: 1em;
+    background-color: #ffffff;
+}
+.lista-menu__titulo{
+    font-weight: 400;
+}
+.lista-menu__link{
+    background-clip: text;
+    text-transform: uppercase;
+}
+.container__botao{
+    display: none;
+}
+.opcoes {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+   
+    .container__titulo-responsive, 
+    .container__titulo--negrito{
+        font-size: 30px;
+    }
+    .container__titulo-responsive{
+        font-weight: 400;
+        display: block;
+    }
+    .container__titulo{
+        font-weight: 700;
+    }   
+    .opcoes{
+        display: flex;
+    }    
+    .opcoes__item{
+        padding: 0 1em;
+        text-transform: uppercase;
+    }
+    .opcoes__link{
+        text-decoration: none;
+        color: #e5a761;
+
+    }
+    .container__imagem-transparente {
+        display: none;
+    }
+    .cabecalho__menu-hamburguer{
+        display: none;
+    }
+    .opcoes__botao:checked~.lista-menu {
+        display: block;
+        width: auto;
+    }
+    .opcoes__botao{
+        display: none;
+    }
+ 
+    .opcoes__item{
+        padding: 2em 1em;
+    }
+    .lista-menu__item:hover {
+        background: #e5a761;
+    }
+    .lista-menu__item:hover>.lista-menu__link{
+        text-decoration: none;
+    }
+
+}
+@media screen and (min-width: 1728px) {
+
+    .container__link{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #000000;
+
+    }
+    .cabecalho{
+        padding: 0 2em;
+    }
+    .opcoes{
+        margin-right: auto;
+    }
+    .container__texto{
+
+        display: block;
+    }
+}
