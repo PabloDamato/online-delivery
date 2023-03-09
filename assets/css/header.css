@@ -19,7 +19,7 @@
     align-items: center;
 }
 .container__imagem{
-    padding: 1.7em;
+    padding: 1em;
 }
 .container__titulo{
     font-family: var(--fonte-primaria);
@@ -56,18 +56,24 @@
 
 @media screen and (min-width: 1024px) {
    
+
+    .container__imagem{
+    padding: 2em;
+    }
     .container__titulo-responsive, 
     .container__titulo--negrito{
-        font-size: 30px;
+        font-size: 22px;
     }
     .container__titulo-responsive{
-        font-weight: 400;
+        font-weight: 700;
+        
         display: block;
     }
     .container__titulo{
         font-weight: 700;
     }   
     .opcoes{
+        margin-left: auto;
         display: flex;
         justify-content: center;
     }    
