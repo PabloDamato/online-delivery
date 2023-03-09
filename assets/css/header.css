@@ -34,16 +34,16 @@
 .container__botao:checked~.lista-menu{
     display: block;
 }
-.lista-menu__titulo, .lista-menu__item{
-    padding: 1em;
-    background-color: #ffffff;
+.lista-menu__item{
+    padding: 0.5em;
+    background-color: #f1d1ad;
 }
-.lista-menu__titulo{
-    font-weight: 400;
-}
+
 .lista-menu__link{
     background-clip: text;
+    color: #ef8c1c;
     text-transform: uppercase;
+    text-decoration: none;
 }
 .container__botao{
     display: none;
