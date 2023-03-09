@@ -17,19 +17,20 @@
     font-family: 'Rosario';
     font-size: 24px;
     font-weight: 400;
-    margin: 0.5em 3% 7%;
+    margin: 0.5em 3% 2%;
 }
 .img-garfo{
     margin-left: 1em;
 }
 
 .banner__pesquisa{
+    background: url(/assets/img/lupa.svg) no-repeat;
     background-color: #FFB21D;
     border: 1px solid #FFB21D;
     color: #7A7676;
     border-radius: 50px;
     padding: 0.5em;
-    width: 90%;
+    width: 100%;
 
 }
 
@@ -39,6 +40,13 @@
     font-weight: 400;
     text-align: center;
     background-position: 1em;
+}
+@media screen and (min-width: 540px) {
+    .banner{
+        text-align: center;
+        padding: 1em 1em;
+    
+    }
 }
 @media screen and (min-width: 1024px) {
    .banner{

@@ -19,10 +19,13 @@
     align-items: center;
 }
 .container__imagem{
-    padding: 1em;
+    padding: 1.5em;
+    
 }
 .container__titulo{
     font-family: var(--fonte-primaria);
+    font-size: 24px;
+    font-weight: 400;
     
 }
 .lista-menu{
@@ -53,6 +56,24 @@
 .opcoes {
     display: none;
 }
+@media screen and (min-width: 540px) {
+   
+
+    .container__imagem{
+    padding-left: 4em;
+    }
+    .container__titulo-responsive, 
+    .container__titulo--negrito{
+        font-size: 22px;
+    }
+    .container__titulo-responsive{
+       
+        
+        display: block;
+    }
+   
+   
+}    
 
 @media screen and (min-width: 1024px) {
    
@@ -65,14 +86,13 @@
         font-size: 22px;
     }
     .container__titulo-responsive{
-        font-weight: 700;
+        
         
         display: block;
     }
-    .container__titulo{
-        font-weight: 700;
-    }   
     .opcoes{
+        font-family: "Signika Negative";
+        font-weight: 600;
         margin-left: auto;
         display: flex;
         justify-content: center;
