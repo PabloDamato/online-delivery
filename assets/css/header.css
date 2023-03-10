@@ -57,10 +57,13 @@
     display: none;
 }
 @media screen and (min-width: 540px) {
-   
+    .cabecalho{
+        justify-content: space-evenly;
+    }
 
     .container__imagem{
-    padding-left: 4em;
+        
+       padding-left: 4em;
     }
     .container__titulo-responsive, 
     .container__titulo--negrito{
