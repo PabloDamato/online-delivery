@@ -1,0 +1,18 @@
+.container-background-fundo {
+    height: 100vh;
+    background: #FFB21D;
+    border-radius: 50px;
+    position: absolute;
+    width: 350px;
+}
+
+.container-background-fundo-sobrepor {
+    height: 90vh;
+    background: #FEF9F9;
+    border-radius: 60px;
+    position: absolute;
+    width: 350px;
+    left: -13px;
+    top: -2px;
+}
+
