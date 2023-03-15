@@ -1,0 +1,6 @@
+.carrossel{
+    
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}

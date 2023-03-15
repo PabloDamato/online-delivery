@@ -49,6 +49,7 @@
    .banner{
     text-align: center;
     padding: 1em 1em;
+    
 
    }
     .banner__titulo{
@@ -68,6 +69,9 @@
     .banner__pesquisa::placeholder{
         
         background-position: 7em;
+    }
+    .container-background-fundo{
+        display: none;
     }
 
 }

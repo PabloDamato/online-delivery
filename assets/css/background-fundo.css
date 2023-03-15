@@ -16,3 +16,12 @@
     top: -2px;
 }
 
+@media screen and (min-width: 540px) {
+    .container-background-fundo{
+        position: relative;
+    }
+    .container-background-fundo-sobrepor{
+        position: relative;
+    }
+}
+
